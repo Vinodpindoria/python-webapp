@@ -52,5 +52,5 @@ def hello():
 
 
 @app.route('/bye')
-def hello():
+def bye():
     return render_template('bye.html', title='Goodbye')
